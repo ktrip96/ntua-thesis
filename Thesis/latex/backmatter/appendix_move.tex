@@ -1,0 +1,16 @@
+\chapter{Πηγαίος κώδικας του έξυπνου συμβολαίου}
+\label{app:move}
+Παρατίθενται τα δύο \en{modules} του πακέτου \code{nft\_barter}, όπως δημοσιεύθηκαν στο
+δίκτυο, καθώς και το σκηνικό των ελέγχων. Οι ίδιοι οι 21 έλεγχοι περιλαμβάνονται στο
+αποθετήριο, στα αρχεία \code{barter\_tests.move} και
+\code{marketplace\_nft\_tests.move} του καταλόγου \code{tests}· ένας από αυτούς
+παρατίθεται στο Απόσπασμα~\ref{lst:test-example}.
+
+\section{marketplace\_nft.move}
+\lstinputlisting[language=Move,caption={Το \en{module} \code{marketplace\_nft}}]{\nftsrc}
+
+\section{barter.move}
+\lstinputlisting[language=Move,caption={Το \en{module} \code{barter}}]{\bartersrc}
+
+\section{barter\_fixture.move}
+\lstinputlisting[language=Move,caption={Το σκηνικό των ελέγχων}]{\fixturesrc}

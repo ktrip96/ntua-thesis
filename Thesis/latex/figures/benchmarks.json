@@ -1,0 +1,567 @@
+{
+  "note": "localnet, sui 1.67.1, single validator, JSON-RPC client, reference gas price 1000",
+  "bidSize": [
+    {
+      "n": 1,
+      "place": {
+        "computation": 1000000,
+        "storage": 9066800,
+        "rebate": 3272940,
+        "net": 6793860,
+        "execMs": 156
+      },
+      "accept": {
+        "computation": 1000000,
+        "storage": 5624000,
+        "rebate": 11270952,
+        "net": -4646952,
+        "execMs": 161
+      }
+    },
+    {
+      "n": 5,
+      "place": {
+        "computation": 1000000,
+        "storage": 29678000,
+        "rebate": 12452220,
+        "net": 18225780,
+        "execMs": 210
+      },
+      "accept": {
+        "computation": 1000000,
+        "storage": 14896000,
+        "rebate": 31676040,
+        "net": -15780040,
+        "execMs": 213
+      }
+    },
+    {
+      "n": 10,
+      "place": {
+        "computation": 1000000,
+        "storage": 55442000,
+        "rebate": 23926320,
+        "net": 32515680,
+        "execMs": 217
+      },
+      "accept": {
+        "computation": 1000000,
+        "storage": 26486000,
+        "rebate": 57182400,
+        "net": -29696400,
+        "execMs": 209
+      }
+    },
+    {
+      "n": 25,
+      "place": {
+        "computation": 1000000,
+        "storage": 132840400,
+        "rebate": 58453956,
+        "net": 75386444,
+        "execMs": 210
+      },
+      "accept": {
+        "computation": 1000000,
+        "storage": 61362400,
+        "rebate": 133806816,
+        "net": -71444416,
+        "execMs": 209
+      }
+    },
+    {
+      "n": 50,
+      "place": {
+        "computation": 1000000,
+        "storage": 261850400,
+        "rebate": 116012556,
+        "net": 146837844,
+        "execMs": 213
+      },
+      "accept": {
+        "computation": 1000000,
+        "storage": 119510000,
+        "rebate": 261534240,
+        "net": -141024240,
+        "execMs": 212
+      }
+    },
+    {
+      "n": 100,
+      "place": {
+        "computation": 1410000,
+        "storage": 519870400,
+        "rebate": 231129756,
+        "net": 290150644,
+        "execMs": 208
+      },
+      "accept": {
+        "computation": 1000000,
+        "storage": 235782400,
+        "rebate": 516966516,
+        "net": -280184116,
+        "execMs": 214
+      }
+    },
+    {
+      "n": 250,
+      "place": {
+        "computation": 65000000,
+        "storage": 1295055200,
+        "rebate": 577594908,
+        "net": 782460292,
+        "execMs": 204
+      },
+      "accept": {
+        "computation": 12900000,
+        "storage": 585754800,
+        "rebate": 1284406992,
+        "net": -685752192,
+        "execMs": 202
+      }
+    },
+    {
+      "n": 500,
+      "place": {
+        "computation": 182400000,
+        "storage": 2587070400,
+        "rebate": 1155076956,
+        "net": 1614393444,
+        "execMs": 293
+      },
+      "accept": {
+        "computation": 55700000,
+        "storage": 1169077600,
+        "rebate": 2563509564,
+        "net": -1338731964,
+        "execMs": 276
+      }
+    }
+  ],
+  "mintBatch": [
+    {
+      "n": 1,
+      "computation": 1000000,
+      "storage": 3306000,
+      "rebate": 978120,
+      "net": 3327880,
+      "perNft": 3327880,
+      "execMs": 128
+    },
+    {
+      "n": 10,
+      "computation": 1000000,
+      "storage": 24168000,
+      "rebate": 978120,
+      "net": 24189880,
+      "perNft": 2418988,
+      "execMs": 162
+    },
+    {
+      "n": 50,
+      "computation": 1000000,
+      "storage": 117192000,
+      "rebate": 978120,
+      "net": 117213880,
+      "perNft": 2344278,
+      "execMs": 172
+    },
+    {
+      "n": 100,
+      "computation": 1000000,
+      "storage": 233472000,
+      "rebate": 978120,
+      "net": 233493880,
+      "perNft": 2334939,
+      "execMs": 151
+    },
+    {
+      "n": 200,
+      "computation": 1000000,
+      "storage": 466792000,
+      "rebate": 978120,
+      "net": 466813880,
+      "perNft": 2334069,
+      "execMs": 174
+    }
+  ],
+  "throughput": {
+    "n": 100,
+    "place": {
+      "ok": 100,
+      "failed": 0,
+      "wallMs": 960,
+      "tps": 104.2,
+      "medianExecMs": 946,
+      "maxExecMs": 954
+    },
+    "accept": {
+      "ok": 100,
+      "failed": 0,
+      "wallMs": 960,
+      "tps": 104.2,
+      "medianExecMs": 947,
+      "maxExecMs": 958
+    },
+    "failures": []
+  },
+  "contention": [
+    {
+      "k": 2,
+      "rounds": 3,
+      "winsPerRound": 1,
+      "totalLosses": 3,
+      "anomalies": 0,
+      "errors": {
+        "InputObjectDeleted": 3
+      }
+    },
+    {
+      "k": 5,
+      "rounds": 3,
+      "winsPerRound": 1,
+      "totalLosses": 12,
+      "anomalies": 0,
+      "errors": {
+        "InputObjectDeleted": 12
+      }
+    },
+    {
+      "k": 10,
+      "rounds": 3,
+      "winsPerRound": 1,
+      "totalLosses": 27,
+      "anomalies": 0,
+      "errors": {
+        "InputObjectDeleted": 27
+      }
+    },
+    {
+      "k": 20,
+      "rounds": 3,
+      "winsPerRound": 1,
+      "totalLosses": 57,
+      "anomalies": 0,
+      "errors": {
+        "InputObjectDeleted": 57
+      }
+    }
+  ],
+  "discovery": [
+    {
+      "label": "baseline",
+      "events": 237,
+      "liveBids": 4,
+      "medianMs": 14
+    },
+    {
+      "label": "500 live bids",
+      "events": 487,
+      "liveBids": 254,
+      "medianMs": 32
+    },
+    {
+      "label": "1000 live bids",
+      "events": 787,
+      "liveBids": 554,
+      "medianMs": 47
+    },
+    {
+      "label": "2000 live bids",
+      "events": 1487,
+      "liveBids": 1254,
+      "medianMs": 87
+    }
+  ],
+  "networkParams": {
+    "fetchedAt": "2026-10-16",
+    "mainnet": {
+      "referenceGasPrice": 100,
+      "storageGasPrice": 76,
+      "storageRebateRateBps": 9999,
+      "protocolVersion": 138,
+      "epoch": 1282
+    },
+    "testnet": {
+      "referenceGasPrice": 1000,
+      "storageGasPrice": 76,
+      "storageRebateRateBps": 9999,
+      "protocolVersion": 139
+    },
+    "localnet": {
+      "referenceGasPrice": 1000,
+      "storageGasPrice": 76,
+      "storageRebateRateBps": 9900,
+      "protocolVersion": 114
+    },
+    "suiUsd": 1.039,
+    "suiEur": 0.924346,
+    "priceSource": "CoinGecko simple price, 2026-10-16"
+  },
+  "mainnetProjection": {
+    "perOperation": {
+      "mint x1": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 3321200,
+          "rebate": 978120,
+          "net": 3343080
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 3321200,
+          "rebate": 987901,
+          "net": 2433299
+        }
+      },
+      "place_bid: SUI only": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 3914000,
+          "rebate": 978120,
+          "net": 3935880
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 3914000,
+          "rebate": 987901,
+          "net": 3026099
+        }
+      },
+      "place_bid: 1 NFT": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 9082000,
+          "rebate": 3287988,
+          "net": 6794012
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 9082000,
+          "rebate": 3320868,
+          "net": 5861132
+        }
+      },
+      "place_bid: 3 NFTs": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 19418000,
+          "rebate": 7907724,
+          "net": 12510276
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 19418000,
+          "rebate": 7986801,
+          "net": 11531199
+        }
+      },
+      "accept_bid: SUI only": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 4309200,
+          "rebate": 6184728,
+          "net": -875528
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 4309200,
+          "rebate": 6246575,
+          "net": -1837375
+        }
+      },
+      "accept_bid: 1 NFT": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 5654400,
+          "rebate": 11301048,
+          "net": -4646648
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 5654400,
+          "rebate": 11414058,
+          "net": -5659658
+        }
+      },
+      "accept_bid: 3 NFTs": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 10320800,
+          "rebate": 21533688,
+          "net": -10212888
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 10320800,
+          "rebate": 21749025,
+          "net": -11328225
+        }
+      },
+      "reject_bid: 1 NFT": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 5654400,
+          "rebate": 11301048,
+          "net": -4646648
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 5654400,
+          "rebate": 11414058,
+          "net": -5659658
+        }
+      },
+      "cancel_bid: 1 NFT": {
+        "localnet": {
+          "computation": 1000000,
+          "storage": 3321200,
+          "rebate": 8991180,
+          "net": -4669980
+        },
+        "mainnet": {
+          "computation": 100000,
+          "storage": 3321200,
+          "rebate": 9081092,
+          "net": -5659892
+        }
+      }
+    },
+    "lifecycle1Nft": {
+      "accept": {
+        "localnet": {
+          "bidder": 6794012,
+          "owner": -4646648,
+          "total": 2147364
+        },
+        "mainnet": {
+          "bidder": 5861132,
+          "owner": -5659658,
+          "total": 201474
+        }
+      },
+      "reject": {
+        "localnet": {
+          "bidder": 6794012,
+          "owner": -4646648,
+          "total": 2147364
+        },
+        "mainnet": {
+          "bidder": 5861132,
+          "owner": -5659658,
+          "total": 201474
+        }
+      },
+      "cancel": {
+        "localnet": {
+          "bidder": 2124032,
+          "owner": 0,
+          "total": 2124032
+        },
+        "mainnet": {
+          "bidder": 201240,
+          "owner": 0,
+          "total": 201240
+        }
+      }
+    },
+    "bidSize": {
+      "1": {
+        "localnet": {
+          "place": 6793860,
+          "accept": -4646952,
+          "placeComp": 1000000
+        },
+        "mainnet": {
+          "place": 5861131,
+          "accept": -5659662,
+          "placeComp": 100000
+        }
+      },
+      "5": {
+        "localnet": {
+          "place": 18225780,
+          "accept": -15780040,
+          "placeComp": 1000000
+        },
+        "mainnet": {
+          "place": 17201258,
+          "accept": -16996800,
+          "placeComp": 100000
+        }
+      },
+      "10": {
+        "localnet": {
+          "place": 32515680,
+          "accept": -29696400,
+          "placeComp": 1000000
+        },
+        "mainnet": {
+          "place": 31376417,
+          "accept": -31168224,
+          "placeComp": 100000
+        }
+      },
+      "25": {
+        "localnet": {
+          "place": 75386444,
+          "accept": -71444416,
+          "placeComp": 1000000
+        },
+        "mainnet": {
+          "place": 73901904,
+          "accept": -73682484,
+          "placeComp": 100000
+        }
+      },
+      "50": {
+        "localnet": {
+          "place": 146837844,
+          "accept": -141024240,
+          "placeComp": 1000000
+        },
+        "mainnet": {
+          "place": 144777718,
+          "accept": -144539582,
+          "placeComp": 100000
+        }
+      },
+      "100": {
+        "localnet": {
+          "place": 290150644,
+          "accept": -280184116,
+          "placeComp": 1410000
+        },
+        "mainnet": {
+          "place": 286570346,
+          "accept": -286253781,
+          "placeComp": 141000
+        }
+      },
+      "250": {
+        "localnet": {
+          "place": 782460292,
+          "accept": -685752192,
+          "placeComp": 65000000
+        },
+        "mainnet": {
+          "place": 718184343,
+          "accept": -710206262,
+          "placeComp": 6500000
+        }
+      },
+      "500": {
+        "localnet": {
+          "place": 1614393444,
+          "accept": -1338731964,
+          "placeComp": 182400000
+        },
+        "mainnet": {
+          "place": 1438682674,
+          "accept": -1414497060,
+          "placeComp": 18240000
+        }
+      }
+    }
+  }
+}

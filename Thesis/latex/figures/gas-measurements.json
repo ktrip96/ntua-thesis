@@ -1,0 +1,139 @@
+{
+  "referenceGasPrice": "1000",
+  "avgIndexedMs": 502,
+  "minIndexedMs": 433,
+  "maxIndexedMs": 539,
+  "avgExecMs": 198,
+  "rows": [
+    {
+      "label": "mint x1",
+      "commands": 1,
+      "computation": 1000000,
+      "storage": 3321200,
+      "rebate": 978120,
+      "net": 3343080,
+      "execMs": 198,
+      "indexedMs": 500
+    },
+    {
+      "label": "mint x3",
+      "commands": 3,
+      "computation": 1000000,
+      "storage": 7987600,
+      "rebate": 978120,
+      "net": 8009480,
+      "execMs": 221,
+      "indexedMs": 526
+    },
+    {
+      "label": "mint x10",
+      "commands": 10,
+      "computation": 1000000,
+      "storage": 24320000,
+      "rebate": 978120,
+      "net": 24341880,
+      "execMs": 217,
+      "indexedMs": 523
+    },
+    {
+      "label": "place_bid: SUI only",
+      "commands": 3,
+      "computation": 1000000,
+      "storage": 3914000,
+      "rebate": 978120,
+      "net": 3935880,
+      "execMs": 145,
+      "indexedMs": 448
+    },
+    {
+      "label": "place_bid: 1 NFT",
+      "commands": 3,
+      "computation": 1000000,
+      "storage": 9082000,
+      "rebate": 3287988,
+      "net": 6794012,
+      "execMs": 173,
+      "indexedMs": 477
+    },
+    {
+      "label": "place_bid: 3 NFTs",
+      "commands": 3,
+      "computation": 1000000,
+      "storage": 19418000,
+      "rebate": 7907724,
+      "net": 12510276,
+      "execMs": 172,
+      "indexedMs": 474
+    },
+    {
+      "label": "place_bid: 3 NFTs + SUI",
+      "commands": 3,
+      "computation": 1000000,
+      "storage": 19418000,
+      "rebate": 7907724,
+      "net": 12510276,
+      "execMs": 172,
+      "indexedMs": 474
+    },
+    {
+      "label": "accept_bid: SUI only",
+      "commands": 2,
+      "computation": 1000000,
+      "storage": 4309200,
+      "rebate": 6184728,
+      "net": -875528,
+      "execMs": 130,
+      "indexedMs": 433
+    },
+    {
+      "label": "accept_bid: 1 NFT",
+      "commands": 2,
+      "computation": 1000000,
+      "storage": 5654400,
+      "rebate": 11301048,
+      "net": -4646648,
+      "execMs": 233,
+      "indexedMs": 539
+    },
+    {
+      "label": "accept_bid: 3 NFTs",
+      "commands": 2,
+      "computation": 1000000,
+      "storage": 10320800,
+      "rebate": 21533688,
+      "net": -10212888,
+      "execMs": 230,
+      "indexedMs": 536
+    },
+    {
+      "label": "accept_bid: 3 NFTs + SUI",
+      "commands": 2,
+      "computation": 1000000,
+      "storage": 11308800,
+      "rebate": 21533688,
+      "net": -9224888,
+      "execMs": 231,
+      "indexedMs": 534
+    },
+    {
+      "label": "reject_bid: 1 NFT",
+      "commands": 1,
+      "computation": 1000000,
+      "storage": 5654400,
+      "rebate": 11301048,
+      "net": -4646648,
+      "execMs": 224,
+      "indexedMs": 528
+    },
+    {
+      "label": "cancel_bid: 1 NFT",
+      "commands": 1,
+      "computation": 1000000,
+      "storage": 3321200,
+      "rebate": 8991180,
+      "net": -4669980,
+      "execMs": 231,
+      "indexedMs": 534
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[package]
+name = "nft_barter"
+edition = "2024"
+
+[dependencies]
+
+[environments]
+devnet = "8e04bdd1"
+localnet = "68c839ea"

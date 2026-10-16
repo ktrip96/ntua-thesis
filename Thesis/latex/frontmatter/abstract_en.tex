@@ -1,0 +1,31 @@
+\begin{english}
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Non-fungible tokens (NFTs) established the notion of a unique digital asset on public
+blockchains, yet their markets remain organised almost exclusively around sales for
+cryptocurrency: fixed prices, auctions and offers. Direct NFT-for-NFT exchange, especially
+between items of different collections, is not served by existing platforms and, where it is
+attempted at all, requires trusting the counterparty or an intermediary.
+
+This diploma thesis designs and implements a barter marketplace on the Sui blockchain, in
+which a user submits a bid consisting of one or more NFTs from any collection and,
+optionally, an amount of SUI, in exchange for a specific NFT held by another user. The
+offered assets are escrowed inside a shared \texttt{Bid} object at submission time, so that
+acceptance by the owner of the requested NFT completes the swap atomically and without a
+custodian. The smart contract is written in Move and exploits Sui's object-centric model.
+
+Barter was historically the first form of economic exchange, long before money was
+established as a common measure of value, and it never ceased to have a place where goods
+are unique and their value subjective. The digitisation of real-world goods as NFTs has
+already moved from the experimental to the institutional stage, a notable example being the
+tokenisation of real-estate title deeds on a blockchain by the Dubai Land Department. In this context, a trustworthy
+mechanism for direct exchange, one that does not impose the liquidation of every asset into
+cryptocurrency as an intermediate step, ceases to be a complement to existing markets and
+becomes necessary infrastructure. This thesis proposes such a mechanism, in which the swap is
+executed atomically by the contract itself, so that neither party needs to trust the other.
+
+\vspace{1cm}
+\noindent\textbf{Keywords:} blockchain, Sui, Move, NFT, marketplace, barter, bid, escrow,
+atomic swap, smart contract, dApp, cross-collection
+\end{english}
+\clearpage

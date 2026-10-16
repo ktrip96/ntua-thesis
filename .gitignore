@@ -1,0 +1,16 @@
+# dependencies and build output
+app/node_modules/
+app/dist/
+build/
+.verify-shots/
+
+# local environment and ephemeral publications
+app/.env
+app/.demo-wallets.*.json
+Pub.*.toml
+
+# reference material, not part of this work
+Thesis/*.pdf
+
+# macOS
+.DS_Store
