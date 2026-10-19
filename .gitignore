@@ -9,8 +9,6 @@ app/.env
 app/.demo-wallets.*.json
 Pub.*.toml
 
-# reference material, not part of this work
-Thesis/*.pdf
 
 # macOS
 .DS_Store
