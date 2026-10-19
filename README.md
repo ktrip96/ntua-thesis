@@ -8,14 +8,25 @@ Everything runs against a local Sui network. Nothing is deployed on a public net
 
 ### 1. Prerequisites
 
+- Git
+- Node.js 22 or newer, from [nodejs.org](https://nodejs.org) or a package manager (`brew install node`, `winget install OpenJS.NodeJS.LTS`)
 - Sui CLI 1.67 or newer
-- Node.js 22 or newer
 
-On macOS or Linux with Homebrew:
+The Sui CLI is installed with [suiup](https://github.com/MystenLabs/suiup), the installer recommended by the [Sui documentation](https://docs.sui.io/getting-started/onboarding/sui-install). On macOS and Linux:
 
 ```bash
-brew install sui node
+curl -sSfL https://raw.githubusercontent.com/MystenLabs/suiup/main/install.sh | sh
+suiup install sui@testnet
+sui --version
 ```
+
+On Windows, download the latest `suiup` zip from its [releases page](https://github.com/MystenLabs/suiup/releases), extract it into a folder on your `PATH`, then run the same `suiup install sui@testnet`. Any release channel works for the local network; `testnet` is the documented default.
+
+Alternatives: `brew install sui` on macOS/Linux, `choco install sui` on Windows.
+
+Full installation guide for every platform: https://docs.sui.io/getting-started/onboarding/sui-install
+
+**Windows note.** The helper scripts in `scripts/` are bash. Run steps 3 to 5 from **Git Bash** (installed with Git for Windows), not PowerShell, so that `bash scripts/deploy.sh` and the npm `predev` hook work. WSL is not required.
 
 ### 2. Clone
 
