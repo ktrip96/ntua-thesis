@@ -31,7 +31,7 @@ Full installation guide for every platform: https://docs.sui.io/getting-started/
 ### 2. Clone
 
 ```bash
-git clone git@github.com:ktrip96/ntua-thesis.git
+git clone https://github.com/ktrip96/ntua-thesis.git
 cd ntua-thesis
 ```
 
